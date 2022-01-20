@@ -1,0 +1,189 @@
+<!--주석 기능  //// 드래그 후 컨트롤 슬래쉬 하면 한번에 주석처리 된다.--> 
+
+<!-- HTML 기본 이론 3가지 Tag , BOX MODEL , DOM -->
+
+<!-- 
+Tag  -  html 언어를 쓸 떄 가장 기본이 되는 단위 (명령어)  :  <>
+BOX Model - 모든 Tag는 사각형 모양을 가지고 있다.
+DOM - Tag들의 계층이동 
+-->
+
+<!DOCTYPE html> <!-- 사용언어 html 선언 -->
+
+
+<!-- 헤드에는 설정 encoding, script import하기, 선언하기 -->
+<head>
+
+</head>
+
+
+<body>
+    <!-- div는 가로를 가득 채운 네모 공간을 만들어준다 가로줄 차지-->
+    <!-- span은 내용물 만큼의 네모 공간을 만들어준다 가로에 span은 서로들어옴-->
+    <!-- 
+    <div>hello stageous</div>  
+    <div>hello stageous</div>
+    <span>hello stageous</span>  
+    <span>hello stageous</span>
+
+    <table> 
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+
+    </table> -->
+
+    <!-- href는 hypertext reference-->
+    <!-- <a href = "https:www.naver.com">네이버로 이동</a> -->
+
+    <!--img 는 소스를 사용해서 움직임 절대경로로 하면 컴퓨터가 바뀌면 문제가 생기기 때문에 상대 경로로 만들기-->
+    <!-- <img src="1.png"> -->
+
+    <!-- <input type="text"> 
+    <input type="text">
+    <input type="button" value ="로그인">
+    <input type="password">
+
+    남자 <input type ="radio" name="gender">
+    여자 <input type ="radio" name="gender">
+
+    <input type ="checkbox"> 개인 정보 동의
+         -->
+        
+    <!-- SEO Search Engine Optimization(검색 엔진 최적화)
+    robots.xm 설치시 모든 사이트를 돌아다니고 분석한다. 로봇의 판단하에 사이트를 등록해준다.
+    
+    --퀄리티 높이는 방법은 SEO 각 tag들 정확히 살용하기
+
+    <div>공간만 차지</div> 
+    <p>내용을 차지하는 글</p>
+    <h1>h1은 제목 h2는 부제목 h3은 파트제목 등등 제목 글 </h1>
+
+    --Semantic Tag 총 6개 종류
+    HTML 코드에서 어떤 것이 중요하고 어떤 것이 중요하지 않은 지 확인하는 역활
+
+    1. <header></header> 페이지 상단부분
+    2. <nav></nav>  네비게이션 메뉴 목차 색인
+    3. <main></main> 주된 내용이자 본문
+    4. <section></section> 1,2,3,6 내부에 들어가는 내용 article 상위 개념
+    5. <article></article> 1,2,3,6 내부에 들어가는 내용 중요내용
+    6. <footer></footer> 맨밑에 검은색 부분 페이지 마지막 부분 -->
+
+
+
+
+    <!-- 1번쨰 실습 -->
+    <header>
+        
+        <img src ="1.png">
+        
+    </header>
+     
+    <main>
+        <div>
+            <input type="text">
+        </div>
+
+        <div>
+            <input type="password">
+        </div>
+        
+        <div>
+            <input type="button" value ="로그인">
+        </div>
+        
+        
+        <span>로그인 상태 유지 IP</span> 
+        <span>보안 OFF</span>
+        
+
+    </main>
+
+
+    <!-- 2번쨰 실습 -->
+
+   <header>
+        <h1>회원가입</h1>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <td>이름 </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>
+                    비밀번호 
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    비밀번호 확인  
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+                <td>
+                    <input type ="button" value="확인">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    성별
+                </td>
+                <td>
+                    <div> <input type="radio" name="성별">남자<input type="radio" name="성별">여자</div>        
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    생년월일         
+                </td>
+                <td>
+                    <input type="text">년 
+                    <select name="mm" id="month">
+                        <option value="">12</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>   
+                    </select> 월
+                    <input type ="text">일
+                </td>
+            </tr>
+            
+        </table>
+
+        <div><input type="button" value = "가입"></div>
+    
+    </main>
+
+
+
+asdfadsf
+
+
+</body>
+
+
