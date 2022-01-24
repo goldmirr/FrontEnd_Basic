@@ -14,7 +14,7 @@ body는 유저에게 보여지는 중요한 컨테이너이다.
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <title>JS Bin</title>
+      <title>HTML Structure</title>
     </head>
     <body>
 
@@ -39,7 +39,7 @@ body는 유저에게 보여지는 중요한 컨테이너이다.
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>JS Bin</title>
+    <title>HTML DEMO</title>
   </head>
   <body>
     <!-- Box vs Item -->    

@@ -1,0 +1,13 @@
+CSS(Cascading Style Sheet) 
+정의 되어있는 style이 있으면 해당 style 쓰고 없다면 다음 기본으로 지정된 style로 넘어간다.
+Cascading 순서 Author style  ->  User Style  ->  Brower 
+
+Boxing을 잘해야지 선택자를 잘 정해 CSS 적용하기 편하다.
+
+Selectors(선택자)
+1. Universal(모든 태그) : * 
+2. type(해당 태그) : Tag(ex. div)
+3. ID : #id
+4. Class : class
+5. Status :  :
+6. Attribute : []
