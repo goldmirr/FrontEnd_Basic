@@ -4,10 +4,49 @@ Cascading 순서 Author style  ->  User Style  ->  Brower
 
 Boxing을 잘해야지 선택자를 잘 정해 CSS 적용하기 편하다.
 
+참고할 사이트 
+CSS reference  ,  https://flukeout.github.io/ (Selector 찾는 게임)
+
+
 Selectors(선택자)
 1. Universal(모든 태그) : * 
 2. type(해당 태그) : Tag(ex. div)
 3. ID : #id
-4. Class : class
+4. Class : .class
 5. Status :  :
-6. Attribute : []
+6. Attribute : []  (ex. a[href] anchor 태그중 href가 붙은 것만)
+
+1. 속성 값 뒤에 !important 를 붙인 속성 (important는 디자이너와 개발자 사이에 중요한 속성이라는 약속)
+2. HTML에서 style을 직접 지정한 속성
+3. #id 로 지정한 속성
+4. .클래스, :추상클래스 로 지정한 속성
+5. 태그이름 으로 지정한 속성
+6. 상위 객체에 의해 상속된 속성
+
+padding, margin 설정방법 3가지
+1. padding: 20px 동서남북 전부
+2. padding-bottom: 20px 방향 한쪽식
+3. padding: 20px 0px 앞의 값 위/아래     뒷값 양/옆
+4. padding: 20px 30px 20px 10px  위 오 아래 왼
+
+border 설정 2가지
+1. border-width: 2px;
+   border-style: solid;
+   border-color: pink;
+
+2. border: 2px solid red; 
+
+CSS_DEMO 파일로 확인
+
+인접 형제 결합자       -->    h1 + p
+
+일반 형제 결합자       -->    h1 ~ p
+
+자식 결합자            -->    article > p
+
+Pseudo-class 선택자     -->    p:first-child {}
+
+Pseudo-element 선택자   -->    p:first-line {}
+
+
+
