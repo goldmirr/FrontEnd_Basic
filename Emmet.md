@@ -33,7 +33,7 @@ Emmet에 대한 자세한 내용 https://emmet.io/
 <div class="class"></div>
 ```
 
-## 부모, 자식, 형제 노드 관계
+## 에밋(Emmit) 메타 기호 기초
 
 ```html
 <!-- '>'  자식노드   div>ul>li -->
@@ -55,7 +55,18 @@ Emmet에 대한 자세한 내용 https://emmet.io/
   <li></li>
   <li></li>
 </ul>
-<!-- '^'  부모위치로 div>ul>li^ol -->
+
+<!-- '$'  숫자태그 1부터 1씩증가하는 변수값   
+      ul>li*5{문자열$} -->
+<ul>
+  <li>문자열1</li>
+  <li>문자열2</li>
+  <li>문자열3</li>
+  <li>문자열4</li>
+  <li>문자열5</li>
+</ul>
+
+<!-- '^'  상위(부모위치)로 div>ul>li^ol -->
 <div>
   <ul>
     <li></li>
