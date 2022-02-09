@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #263343;
+}
+
+.navbar__logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar__logo i {
+  color: burlywood;
+}
+
+.navbar__menu {
+  display: flex;
+  flex-flow: nowrap row;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar__menu div {
+  padding: 8px 12px;
+}
+
+.navbar__links {
+  list-style: none;
+  color: white;
+  display: flex;
+}
